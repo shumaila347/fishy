@@ -1,0 +1,15 @@
+var a = 10
+var b = ++a
+ var c = a++
+var d = --a
+var e = a-- 
+document.querySelector("p").innerHTML="Result : "  ;
+document.querySelector("p1").innerHTML="The Value of a is : " + a ;
+document.querySelector("p2").innerHTML="The Value of ++a is  : " + b;
+document.querySelector("p3").innerHTML="Now the value a is : " + b;
+document.querySelector("p4").innerHTML="The Value of a++ is : " + b;
+document.querySelector("p5").innerHTML="Now the value a is : " + c;
+document.querySelector("p6").innerHTML="The Value of --a is : " + c;
+document.querySelector("p7").innerHTML="Now the value of a is : " + d ;
+document.querySelector("p8").innerHTML="The Value of a-- is : " + e;
+document.querySelector("p9").innerHTML="Now the value of a is : " + a ;
